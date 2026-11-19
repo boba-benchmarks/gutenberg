@@ -1,0 +1,36 @@
+{
+ "at": "2026-11-19T05:15:39+00:00",
+ "suite": "gutenberg",
+ "repo": "boba-benchmarks/gutenberg",
+ "runner": "github-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/gutenberg/actions/runs/44461986662",
+ "run_id": 44461986662,
+ "sha": "14d3b2fdfca74f9d17b586d54d7b5ef30c87f705",
+ "conclusion": "failure",
+ "wall_s": 970,
+ "queue_s": 3,
+ "job_s": 6441,
+ "jobs": 11,
+ "job_max_s": 802,
+ "vcpu_min": 429.4,
+ "billed_min": 113,
+ "usd": 1.356,
+ "tests": {
+  "passed": 2841,
+  "failed": 1,
+  "flaky": 4,
+  "skipped": 20,
+  "failed_tests": [
+   "editor/blocks/links.spec.js::can be created and modified using only the keyboard::chromium"
+  ],
+  "flaky_tests": [
+   "editor/collaboration/collaboration-undo-redo.spec.ts::Undo restores the post selection when another synced entity is loaded::chromium",
+   "editor/various/font-size-picker.spec.js::should apply a named font size using the font size buttons::chromium",
+   "editor/various/font-size-picker.spec.js::should reset a named font size using the tools panel menu::chromium",
+   "site-editor/navigation-overlay-template-part.spec.js::As a user I want to be able to add multiple close buttons so that users can close the overlay from different positions::chromium"
+  ],
+  "files": 8
+ }
+}
