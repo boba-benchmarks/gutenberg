@@ -1,0 +1,13 @@
+{
+ "id": 44621216827,
+ "html_url": "https://github.com/boba-benchmarks/gutenberg/actions/runs/44621216827",
+ "head_sha": "14d3b2fdfca74f9d17b586d54d7b5ef30c87f705",
+ "head_branch": "main",
+ "event": "workflow_dispatch",
+ "status": "completed",
+ "conclusion": "failure",
+ "created_at": "2026-11-19T21:40:59Z",
+ "updated_at": "2026-11-19T21:49:50Z",
+ "run_started_at": "2026-11-19T21:40:59Z",
+ "run_attempt": 1
+}
