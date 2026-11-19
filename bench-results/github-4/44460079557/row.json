@@ -1,0 +1,35 @@
+{
+ "at": "2026-11-19T04:58:54+00:00",
+ "suite": "gutenberg",
+ "repo": "boba-benchmarks/gutenberg",
+ "runner": "github-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/gutenberg/actions/runs/44460079557",
+ "run_id": 44460079557,
+ "sha": "14d3b2fdfca74f9d17b586d54d7b5ef30c87f705",
+ "conclusion": "failure",
+ "wall_s": 1001,
+ "queue_s": 4,
+ "job_s": 6659,
+ "jobs": 11,
+ "job_max_s": 830,
+ "vcpu_min": 443.9,
+ "billed_min": 116,
+ "usd": 1.392,
+ "tests": {
+  "passed": 2842,
+  "failed": 1,
+  "flaky": 3,
+  "skipped": 20,
+  "failed_tests": [
+   "editor/blocks/links.spec.js::can be created and modified using only the keyboard::chromium"
+  ],
+  "flaky_tests": [
+   "editor/various/font-size-picker.spec.js::should reset a named font size using input field::chromium",
+   "editor/various/font-size-picker.spec.js::should reset a named font size using the tools panel menu::chromium",
+   "editor/various/revisions.spec.js::should restore an older revision::chromium"
+  ],
+  "files": 8
+ }
+}
