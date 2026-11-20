@@ -1,0 +1,112 @@
+[
+ {
+  "name": "Boba / Playwright - 2 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438727000",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:21Z",
+  "completed_at": "2026-11-20T17:04:19Z",
+  "title": "357 passed",
+  "summary": "### \u2705 All 357 tests passed in 3 min 58 s\n\nOn 14d3b2f \u00b7 5 min 52 s into the job \u00b7 6 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_80ad4677c3d6b046/f2f5c569ed56245582611b7d7ed272bd/html/index.html)\n\n45 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 8 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438682412",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:27Z",
+  "completed_at": "2026-11-20T17:04:15Z",
+  "title": "352 passed",
+  "summary": "### \u2705 All 352 tests passed in 3 min 48 s\n\nOn 14d3b2f \u00b7 5 min 47 s into the job \u00b7 1 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_dc3d349aa4930533/3b25939991560b63ac326c30bb14fbd9/html/index.html)\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 4 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438459078",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:24Z",
+  "completed_at": "2026-11-20T17:03:54Z",
+  "title": "357 passed, 2 flaky",
+  "summary": "### \u2705 All 357 tests passed in 3 min 30 s\n\nOn 14d3b2f \u00b7 5 min 22 s into the job \u00b7 1 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_da9465d1b38d3981/9ee763aed79d1f382ed26c19574149fd/html/index.html)\n\n<details>\n<summary>2 flaky tests, not blocking</summary>\n\n`[withheld 77]` failed once here, then passed on retry\n`[withheld 98]` failed once here, then passed on retry\n\n</details>\n\n17 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.\n\nTest names and errors are withheld: this run wrote values Boba could not check for your secrets, so none of its text is shown.\n\nThe full report was withheld: Boba could not check it for this job's secrets.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 1 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438289955",
+  "conclusion": "failure",
+  "started_at": "2026-11-20T17:00:34Z",
+  "completed_at": "2026-11-20T17:03:36Z",
+  "title": "Failed on this commit",
+  "summary": "### \u274c Failed on this commit\n\n`can be created and modified using only the keyboard` fails on this commit every time\n\n<!-- boba-card:d3871b1700d0155d -->\n\n> The test expected \u201cfocused\u201d, but \\`getByRole('link', { name: 'The new Gutenberg editing' })\\` wasn't on the page\n\n<details>\n<summary><h4>\ud83e\udd16 Prompt for AI agents</h4></summary>\n\n```text\nFix the Playwright test failing on boba-benchmarks/gutenberg, at commit 14d3b2f. It fails on this push, and Boba has no run of main to compare with.\n\n1. test/e2e/specs/editor/blocks/links.spec.js \u203a Links \u203a can be created and modified using only the keyboard\n   The test expected \u201cfocused\u201d, but `getByRole('link', { name: 'The new Gutenberg editing' })` wasn't on the page\n\nCheck your fixes: npx playwright test test/e2e/specs/editor/blocks/links.spec.js\n```\n\n</details>\n\n[Open the trace](https://www.coldtea.ai/api/boba/reports/bj_81264a6d343cc79e/b25e10d80e348e36ec67694b4d5787bc/html/index.html#?testId=338d0171d0a92c051a16-24ea085acb2f5b0f1ae0) \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_81264a6d343cc79e/b25e10d80e348e36ec67694b4d5787bc/html/index.html)\n\n356 passed \u00b7 3 min 1 s\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - Site Editor v2 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438280304",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:36Z",
+  "completed_at": "2026-11-20T17:03:34Z",
+  "title": "193 passed",
+  "summary": "### \u2705 All 193 tests passed in 2 min 58 s\n\nOn 14d3b2f \u00b7 5 min 7 s into the job \u00b7 3 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_984daaf1121a04c0/1815ca6679992a8880f6b097ee144d16/html/index.html)\n\n13 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 7 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438239223",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:28Z",
+  "completed_at": "2026-11-20T17:03:31Z",
+  "title": "354 passed, 1 flaky",
+  "summary": "### \u2705 All 354 tests passed in 3 min 3 s\n\nOn 14d3b2f \u00b7 5 min 2 s into the job \u00b7 7 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_33cf8371b2b0097d/4c6812b4ccf09f15386c3c26b522b3be/html/index.html)\n\n<details>\n<summary>1 flaky test, not blocking</summary>\n\n`page-list submenu user interactions` failed once here, then passed on retry\n\n</details>\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 3 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438228466",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:24Z",
+  "completed_at": "2026-11-20T17:03:29Z",
+  "title": "357 passed",
+  "summary": "### \u2705 All 357 tests passed in 3 min 5 s\n\nOn 14d3b2f \u00b7 5 min 1 s into the job \u00b7 2 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_589e45a46f0a50ce/2c68ba2158d6009e47b047fc328e0cef/html/index.html)\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 5 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136438216011",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:31Z",
+  "completed_at": "2026-11-20T17:03:29Z",
+  "title": "356 passed",
+  "summary": "### \u2705 All 356 tests passed in 2 min 58 s\n\nOn 14d3b2f \u00b7 5 min 1 s into the job \u00b7 2 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_3d4cb7dcae8c2dca/5fba56be3bf151918eda1d6861543158/html/index.html)\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - 6 (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136437859190",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:15Z",
+  "completed_at": "2026-11-20T17:02:53Z",
+  "title": "356 passed",
+  "summary": "### \u2705 All 356 tests passed in 2 min 38 s\n\nOn 14d3b2f \u00b7 4 min 25 s into the job \u00b7 1 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_b3fe3565663d3275/87e04e452757ff44d9ff81f92a4ef299/html/index.html)\n\n25 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba / Playwright - RTC WebSocket (boba-standard)",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136437551294",
+  "conclusion": "success",
+  "started_at": "2026-11-20T17:00:19Z",
+  "completed_at": "2026-11-20T17:02:24Z",
+  "title": "74 passed",
+  "summary": "### \u2705 All 74 tests passed in 2 min 5 s\n\nOn 14d3b2f \u00b7 3 min 56 s into the job \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_714ba87cd06bee7b/cd6a14898567908d5d97352833d6a608/html/index.html)\n\n7 credentials your setup signed in with are masked wherever the report shows them. They only open this job's own app.",
+  "text": null
+ },
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/gutenberg/runs/136435263097",
+  "conclusion": "failure",
+  "started_at": "2026-11-20T16:58:28Z",
+  "completed_at": "2026-11-20T17:04:27Z",
+  "title": "1 of 11 Boba jobs failed",
+  "summary": "This check covers every Boba job in this workflow run. Each job's own results are in its linked check.\n\n| Job | Result | Detail |\n| --- | --- | --- |\n| Build (boba-standard) | Passed | The job ended (success) |\n| [Playwright - 1 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438289955) | **Failed** | Failed on this commit |\n| [Playwright - 2 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438727000) | Passed | 357 passed |\n| [Playwright - 3 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438228466) | Passed | 357 passed |\n| [Playwright - 4 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438459078) | Passed | 357 passed, 2 flaky |\n| [Playwright - 5 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438216011) | Passed | 356 passed |\n| [Playwright - 6 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136437859190) | Passed | 356 passed |\n| [Playwright - 7 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438239223) | Passed | 354 passed, 1 flaky |\n| [Playwright - 8 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438682412) | Passed | 352 passed |\n| [Playwright - RTC WebSocket (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136437551294) | Passed | 74 passed |\n| [Playwright - Site Editor v2 (boba-standard)](https://github.com/boba-benchmarks/gutenberg/runs/136438280304) | Passed | 193 passed |",
+  "text": null
+ }
+]
